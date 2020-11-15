@@ -110,8 +110,8 @@ t.test(x)
 
 # generate simulates samples
 nsim<-1000
-true_mu<-0
-xsim<-lapply(1:nsim,function(i){rnorm(10,true_mu,1)})
+true_mu<-1
+xsim<-lapply(1:nsim,function(i){rnorm(15,true_mu,2)})
 
 x_tests<-lapply(xsim,t.test)
 
@@ -127,10 +127,15 @@ rownames(x_test_sum)<-c("mean","pval","ci_lower","ci_upper")
 
 x_test_df<-data.frame(t(x_test_sum))
 
+hist(x_test_df$pval)
+
 in_interval<-x_test_df$ci_lower<true_mu&true_mu<x_test_df$ci_upper
 sum(in_interval)
 
-View(cbind(x_test_df,mu,in_interval))
+interval_excludes_zero<-x_test_df$ci_lower>0|x_test_df$ci_upper<0
+sum(interval_excludes_zero)
+
+View(cbind(x_test_df,true_mu,in_interval,interval_excludes_zero))
 
 
 #################################################################################################### 

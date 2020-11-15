@@ -1,4 +1,5 @@
-STATS 101: a modern introduction. This is an introduction to the basic statistical concepts and computer skills that are necessary for analysing data. The focus is on how to make your empirical research useful and credible.
+STATS 101: a modern introduction. This is an introduction to the basic statistical concepts and computer skills that are necessary for analysing data. 
+
 Presenter: Dr Ian Hunt, Monash Statistical Consulting Service 
 
 Please have a computer with R and RStudio installed before the first session starts. RStudio is open source software and can be downloaded from:

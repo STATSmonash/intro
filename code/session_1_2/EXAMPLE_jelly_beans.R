@@ -25,7 +25,7 @@ hist(x_p$p)
 # sorted list of p-values
 head(x_p[order(x_p$p),])
 
-sum(x_p$p<.05)/ntests # proportion of total proportion of p-values below .05
+sum(x_p$p<.05)/ntests # proportion of p-values below .05
 
 # bonferroni adjustment (divide p-value cut-off by the number of tests)
 .05/ntests # new cut-off

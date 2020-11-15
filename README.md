@@ -2,7 +2,7 @@ STATS 101: a modern introduction. This is an introduction to the basic statistic
 
 Presenter: Dr Ian Hunt, Monash Statistical Consulting Service 
 
-Please have a computer with R and RStudio installed before the first session starts. RStudio is open source software and can be downloaded from:
+Please have a computer with R and RStudio (Desktop) installed before the first session starts. RStudio is open source software and can be downloaded from:
 https://www.rstudio.com/products/rstudio/download/. Instructions for installing R (immediately before RStudio) are at the same site.
 
 Session 1: 10am-1.00pm 16 Nov

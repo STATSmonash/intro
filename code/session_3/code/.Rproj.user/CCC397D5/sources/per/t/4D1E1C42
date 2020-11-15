@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605411254783.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "175266359",
+    "id" : "4D1E1C42",
+    "lastKnownWriteTime" : 1605411200,
+    "last_content_update" : 1605411200,
+    "path" : "~/111_courses/STATS_101_modern_intro/code/data_analysis_class/SESSION_3_challenges.R",
+    "project_path" : "SESSION_3_challenges.R",
+    "properties" : {
+        "cursorPosition" : "9,46",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

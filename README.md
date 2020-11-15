@@ -9,7 +9,7 @@ Session 1: 10am-1.00pm 16 Nov
 
 Session 2: 10am-1.00pm 19 Nov
 
-Session 3: 10am-1.00pm 21 Nov
+Session 3: 10am-1.00pm 23 Nov
 
 ZOOM: https://monash.zoom.us/j/92829405403?pwd=cVRHV0c1bjR0eElvbTJhT2xPQlFyUT09 
 

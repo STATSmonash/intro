@@ -1,0 +1,120 @@
+""
+"resilience_simple vs permanent"
+"","permanent","short-term contract"
+"no resilience",27,8
+"resilience",157,37
+"Chi-sq p-value (no correction)",0.603982822343342
+"OR","0.95CI_low","0.95CI_up"
+0.795382165605096,0.334408925287102,1.89179397296144
+""
+"resilience_simple vs stressful_workplace"
+"","not stressful","stressful"
+"no resilience",2,34
+"resilience",35,159
+"Chi-sq p-value (no correction)",0.0611214056906787
+"OR","0.95CI_low","0.95CI_up"
+0.267226890756303,0.0613019027783669,1.16489387615683
+""
+"resilience_simple vs support_satisfaction"
+"","not satisfied","satisfied"
+"no resilience",27,8
+"resilience",104,90
+"Chi-sq p-value (no correction)",0.00959573457274692
+"OR","0.95CI_low","0.95CI_up"
+2.92067307692308,1.26353430418668,6.75116709850958
+""
+"resilience_simple vs qual"
+"","0","1"
+"no resilience",16,20
+"resilience",95,100
+"Chi-sq p-value (no correction)",0.63726443520841
+"OR","0.95CI_low","0.95CI_up"
+0.842105263157895,0.412011726131258,1.72116769805797
+""
+"resilience_simple vs gender"
+"","0","1"
+"no resilience",7,29
+"resilience",28,167
+"Chi-sq p-value (no correction)",0.434281409202761
+"OR","0.95CI_low","0.95CI_up"
+1.43965517241379,0.575280427881704,3.60277686325873
+""
+"permanent vs stressful_workplace"
+"","not stressful","stressful"
+"permanent",29,156
+"short-term contract",9,36
+"Chi-sq p-value (no correction)",0.483591194297555
+"OR","0.95CI_low","0.95CI_up"
+0.743589743589744,0.32390526721621,1.70705994232189
+""
+"permanent vs support_satisfaction"
+"","not satisfied","satisfied"
+"permanent",110,76
+"short-term contract",20,24
+"Chi-sq p-value (no correction)",0.0996096123056464
+"OR","0.95CI_low","0.95CI_up"
+1.73684210526316,0.8963305335053,3.36552241149009
+""
+"permanent vs qual"
+"","0","1"
+"permanent",85,102
+"short-term contract",27,18
+"Chi-sq p-value (no correction)",0.0795903678317781
+"OR","0.95CI_low","0.95CI_up"
+0.555555555555555,0.286500659845914,1.0772819004139
+""
+"permanent vs gender"
+"","0","1"
+"permanent",23,164
+"short-term contract",10,35
+"Chi-sq p-value (no correction)",0.0871030126776638
+"OR","0.95CI_low","0.95CI_up"
+0.490853658536585,0.214625439074698,1.12259439112852
+""
+"stressful_workplace vs support_satisfaction"
+"","not satisfied","satisfied"
+"not stressful",13,25
+"stressful",119,74
+"Chi-sq p-value (no correction)",0.00177697537647119
+"OR","0.95CI_low","0.95CI_up"
+0.323361344537815,0.155782944342606,0.671206720238542
+""
+"stressful_workplace vs qual"
+"","0","1"
+"not stressful",16,22
+"stressful",94,100
+"Chi-sq p-value (no correction)",0.473576010474529
+"OR","0.95CI_low","0.95CI_up"
+0.773694390715667,0.383115656341056,1.56246031796727
+""
+"stressful_workplace vs gender"
+"","0","1"
+"not stressful",7,31
+"stressful",28,166
+"Chi-sq p-value (no correction)",0.529935845900884
+"OR","0.95CI_low","0.95CI_up"
+1.33870967741935,0.537406324842479,3.33480183907685
+""
+"support_satisfaction vs qual"
+"","0","1"
+"not satisfied",62,70
+"satisfied",49,51
+"Chi-sq p-value (no correction)",0.759166396282364
+"OR","0.95CI_low","0.95CI_up"
+0.921865889212828,0.547985580418584,1.5508377374547
+""
+"support_satisfaction vs gender"
+"","0","1"
+"not satisfied",19,113
+"satisfied",16,84
+"Chi-sq p-value (no correction)",0.735005759460942
+"OR","0.95CI_low","0.95CI_up"
+0.882743362831858,0.428606300847727,1.81806903697512
+""
+"qual vs gender"
+"","0","1"
+"0",12,100
+"1",23,99
+"Chi-sq p-value (no correction)",0.0812173966297014
+"OR","0.95CI_low","0.95CI_up"
+0.516521739130435,0.243685693249874,1.09483122885166

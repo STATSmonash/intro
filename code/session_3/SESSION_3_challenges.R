@@ -1,11 +1,6 @@
 cat("\014")  # clean console window
 rm(list=ls(pos=.GlobalEnv), pos=.GlobalEnv) # remove all variables and start again :)
 
-# load all function files in function folder (files begining with "f" only)
-function_files<-paste0("source('functions//",list.files(path="functions//",pattern="^f.*.R$"),"', encoding='utf-8')")
-for(i in function_files){ eval(parse(text=i)) }
-colour_p<-c("#E768AD") # pink for some charts!
-
 
 #################################################################################################### 
 # challenge 1

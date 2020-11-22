@@ -125,9 +125,9 @@ lines(mini_reg$model$`x$work_hours`,predict(mini_reg)) # predicted values of y f
 # i am going to use burnout and work_hours.  these are columns 1 and 5 of x.
 #q2
 plot(x$burnout[x$resilience_simple=="resilience"],x$work_hours[x$resilience_simple=="resilience"],main=NA)
-title(main="hours vs burnout for those with reslience",cex.main=1)
+title(main="hours vs burnout for those with resilience",cex.main=1)
 
-# now repeat for "no reslience"
+# now repeat for "no resilience"
 
 
 #q3
@@ -171,4 +171,50 @@ t.test(xsplit[[1]]$work_hours,xsplit[[2]]$work_hours)
 
 #q3
 # look at the confidence intervals and p-values
-  
+
+
+
+
+
+#################################################################################################### 
+# challenge 11
+#################################################################################################### 
+
+#q1
+xsplit<-split(x$age,x$resilience_simple) # splits the columns of x by the factor 
+
+
+
+#q2
+par(mfrow=c(1,3)) # split the chart screen into 3 bits
+hist(xsplit[[1]],main="burnout",xlab=names(xsplit)[1])
+hist(xsplit[[2]],main="burnout",xlab=names(xsplit)[2])
+
+qqplot(xsplit[[1]],xsplit[[2]])
+fqqline(xsplit[[1]],xsplit[[2]]) # if you have loaded this earlier in the R session
+
+# and copy code from above for fsum_mini
+
+
+#q3
+?wilcox.test
+# the function works with rank data ... 
+wilcox.test(xsplit[[1]],xsplit[[2]])
+
+xsplit_ranks<-split(data.frame(rank=rank(x$age)),x$resilience_simple)
+sapply(xsplit_ranks,fsum_mini)
+
+#q4
+t.test(xsplit[[1]],xsplit[[2]])
+
+
+
+
+
+
+
+
+
+
+
+

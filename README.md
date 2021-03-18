@@ -5,13 +5,12 @@ Presenter: Dr Ian Hunt, Monash Statistical Consulting Service
 Please have a computer with R and RStudio (Desktop) installed before the first session starts. RStudio is open source software and can be downloaded from:
 https://www.rstudio.com/products/rstudio/download/. Instructions for installing R (immediately before RStudio) are at the same site.
 
-Session 1: 10am-1.00pm 16 Nov
+Session starts: 19/03/2021 12:30 - 15:30 Part: 1
+Session starts: 24/03/2021 12:30 - 15:30 Part: 2
+Session starts: 31/03/2021 12:30 - 15:30 Part: 3
 
-Session 2: 10am-1.00pm 19 Nov
-
-Session 3: 10am-1.00pm 23 Nov
-
-ZOOM: https://monash.zoom.us/j/92829405403?pwd=cVRHV0c1bjR0eElvbTJhT2xPQlFyUT09 
+ZOOM: https://monash.zoom.us/j/86507386142?pwd=SWJXTGJZeEdUdytiM1VHMm1xMWNKZz09
 
 QUIZ: https://monash.az1.qualtrics.com/jfe/form/SV_6SuKzunX8FCxp7D
+
 

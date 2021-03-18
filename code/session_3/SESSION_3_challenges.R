@@ -1,6 +1,6 @@
 cat("\014")  # clean console window
 rm(list=ls(pos=.GlobalEnv), pos=.GlobalEnv) # remove all variables and start again :)
-
+ 
 
 #################################################################################################### 
 # challenge 1
